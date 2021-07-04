@@ -27,21 +27,38 @@
 				<input type="number" id="number" name="number" min="1" max="20" placeholder="1"><br>
 			
 				<!-- drop-down box -->
-				<label for="drop-down" id="drop-down-label">Dropdown list:</label><br>
-				<select id="drop-down" name="drop-down" placeholder="First">
+				<label for="dropdown" id="drop-down-label">Choose item from the dropdown list:</label><br>
+				<select id="dropdown" name="drop-down" placeholder="First"><br>
 					<option value="first">First</option>
 					<option value="second">Second</option>
 					<option value="third">Third</option>
+				</select>
 			
 				<!-- radio buttons -->
-				
-				
+				<p>Heading provided by p element</p><br>
+				<input type="radio" name="grouping-name" value="one" checked>
+				<label for="radio" id="radio-label-one">Radio button One</label><br>
+				<input type="radio" name="grouping-name" value="two">
+				<label for="radio" id="radio-label-two">Radio button Two</label><br>
+				<input type="radio" name="grouping-name" value="three">
+				<label for="radio" id="radio-label-three">Radio button Three</label><br>
 				
 				<!-- check-boxes -->
+				<label for="checkbox">Heading provided by label element</label><br>
+				<input type="checkbox" name="checkbox-one" value="First Checkbox">
+				<label for="checkbox" id="checkbox-label">Checkbox 1</label><br>
+				<input type="checkbox" name="checkbox-two" value="Second Checkbox">
+				<label for="checkbox" id="checkbox-label">Checkbox 2</label><br>
+				<input type="checkbox" name="checkbox-three" value="Third Checkbox">
+				<label for="checkbox" id="checkbox-label">Checkbox 3</label><br>
+				
+				<!-- text area -->
+				<label for="text-area">This is an area to fill in text</label><br>
+				<textarea id="text-area" name="textarea-name" rows="5" cols="50"></textarea><br>
 				
 				
-			
-				<input type="submit" id="submit" value="Submit"><br>
+				<!-- buttons for submit or reset form -->
+				<input type="submit" id="submit" value="Submit">
 				<input type="reset" id="reset">
 				
 			</form>

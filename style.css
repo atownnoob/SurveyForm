@@ -1,0 +1,17 @@
+main {
+	margin: auto;
+	text-align: center;
+	color: red;
+	background-image: url("https://mamasgeeky.com/wp-content/uploads/2020/03/coronavirus-meme-1.jpg");
+	
+	// setting opacity here sets it for all child elements as well
+	// opacity: 0.5;
+	
+}
+
+form {
+	width: 50%;
+	background-color: lightblue;
+	margin: auto;
+	opacity: 1;
+}
