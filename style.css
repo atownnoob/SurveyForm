@@ -1,17 +1,88 @@
 main {
-	margin: auto;
-	text-align: center;
-	color: red;
-	background-image: url("https://mamasgeeky.com/wp-content/uploads/2020/03/coronavirus-meme-1.jpg");
 	
+	margin: auto;
+	//text-align: center;
+	color: red;
+	
+	background-image: url("https://www.fg-a.com/wallpapers/2016-circles-abstract.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	padding-bottom: 50px;
 	// setting opacity here sets it for all child elements as well
 	// opacity: 0.5;
 	
+	box-sizing: border-box;
 }
 
 form {
-	width: 50%;
+	width: 60%;
 	background-color: lightblue;
 	margin: auto;
-	opacity: 1;
+	//opacity: 1;
+	
+	display: block;
+	
+	border: 3px solid;
+	border-color: lightblue;
+	border-radius: 10px;
+	box-shadow: 5px 5px #E6BBAD;
+	box-sizing: border-box;
+	padding: 0.75rem 0.35rem;
 }
+
+input {
+	//width: 100%;
+	margin: 0px;
+	//border: 1px solid;
+}
+
+#checkbox-label{
+	width: 10px;
+}
+
+#radio-label{
+	width: 10px:
+	margin: left;
+}
+
+#dropdown{
+	width: 100%;
+	margin: 0 auto 1.25rem auto;
+	//border: 2px solid;
+	box-sizing: border-box;
+}
+
+#number{
+	width: 100%;
+	margin: 0 auto 1.25rem auto;
+	box-sizing: border-box;
+}
+
+#email{
+	width: 100%;
+	margin: 0 auto 1.25rem auto;
+	box-sizing: border-box;
+}
+#name{
+	width:100%;
+	margin: 0 auto 1.25rem auto;
+	box-sizing: border-box;
+}
+
+#text-area{
+	width: 100%;
+	margin: 0 auto 1.25rem auto;
+	box-sizing: border-box;
+}
+
+@media (max-width: 600px){
+	form{
+		background-color: black;
+		width: 100%;
+	}
+	input{
+		margin: auto;
+	}
+}
+
