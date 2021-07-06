@@ -1,12 +1,15 @@
+html {
+	background-image: url("https://www.fg-a.com/wallpapers/2016-circles-abstract.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+
 main {
 	
 	margin: auto;
 	//text-align: center;
 	color: red;
-	
-	background-image: url("https://www.fg-a.com/wallpapers/2016-circles-abstract.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
 	
 	padding-bottom: 50px;
 	// setting opacity here sets it for all child elements as well
