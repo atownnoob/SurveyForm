@@ -5,3 +5,5 @@ knowledge of the html input element, and the multiple attributes that it has. Mi
 
 Working location can be found in CodePen at the following link:<br>
 https://codepen.io/atownnoob/pen/MWmwKpY
+
+#TODO rewrite this form to use CSS Flexbox
